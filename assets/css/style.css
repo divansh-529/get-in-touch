@@ -98,8 +98,9 @@ section {
     align-content: center;
     align-items: center;
 }
-.no1{
-        color: #1E0E62 !important;
+
+.no1 {
+    color: #1E0E62 !important;
 }
 
 .no {
@@ -110,7 +111,7 @@ section {
     font-weight: 500;
     line-height: 28px;
     text-align: left;
-    color: #1E0E62 ;
+    color: #1E0E62;
 }
 
 .phone-svg {
@@ -211,7 +212,8 @@ section {
 }
 
 .text-input {
-    outline: none;
+    padding-top: 13px;
+     outline: none;
     width: 370px;
     height: 170px;
     gap: 0px;
@@ -226,9 +228,10 @@ section {
     line-height: 26px;
     text-align: left;
     padding-left: 24px;
-    
+
 }
-input{
+
+input {
     outline: none;
 }
 
@@ -250,9 +253,10 @@ input{
     display: flex;
     align-content: center;
 }
-textarea{
+
+textarea {
     resize: none;
-    
+
 }
 
 .send {
