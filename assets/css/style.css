@@ -98,15 +98,19 @@ section {
     align-content: center;
     align-items: center;
 }
+.no1{
+        color: #1E0E62 !important;
+}
 
 .no {
+
     margin-left: 16px;
     font-family: DM Sans;
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
     text-align: left;
-    color: #1E0E62;
+    color: #1E0E62 ;
 }
 
 .phone-svg {
@@ -137,6 +141,7 @@ section {
     margin-top: 11px;
     margin-bottom: 36px;
 }
+
 
 .map {
     max-width: 370px;
@@ -206,6 +211,7 @@ section {
 }
 
 .text-input {
+    outline: none;
     width: 370px;
     height: 170px;
     gap: 0px;
@@ -220,6 +226,10 @@ section {
     line-height: 26px;
     text-align: left;
     padding-left: 24px;
+    
+}
+input{
+    outline: none;
 }
 
 .name {
@@ -240,6 +250,10 @@ section {
     display: flex;
     align-content: center;
 }
+textarea{
+    resize: none;
+    
+}
 
 .send {
     cursor: pointer;
@@ -254,4 +268,5 @@ section {
     font-weight: 500;
     line-height: 26px;
     text-align: center;
+    margin-left: 10px;
 }
